@@ -1,0 +1,87 @@
+.feed {
+    display: flex;
+    flex: 0.6;
+    flex-direction: column;
+    margin: 0px 30px;
+}
+
+.feed__form {
+    display: flex;
+}
+
+.feed__form .MuiAvatar-circular {
+    width: 48px;
+    height: 48px;
+}
+
+.feed__input {
+    display: flex;
+    background-color: #fff;
+    padding: 10px;
+    border-radius: 10px;
+    flex-direction: column;
+}
+
+
+.feed .feed__input form {
+    display: flex;
+    flex: 1;
+    align-items: center;
+    margin-bottom: 10px;
+}
+
+
+
+
+.feed .feed__input form input[type='text'] {
+    background-color: transparent;
+    flex: 1;
+    border-radius: 20px;
+    padding: 0px 10px;
+    margin-left: 10px;
+    height: 48px;
+    outline: 0;
+    border: 1px solid #ccc;
+}
+
+.feed .feed__input form input[type='text']:hover {
+    background-color: #f3f2ef;
+}
+
+.feed .feed__input form input[type='text']::placeholder {
+    font-weight: 600;
+}
+
+
+
+.feed .feed__input form input[type='submit'] {
+    display: none;
+}
+
+.feed__options {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    cursor: pointer;
+
+}
+
+.feed__options .option {
+    display: flex;
+    align-items: center;
+    color: #333;
+    font-size: 14px;
+    border-radius: 5px;
+    padding: 10px 10px;
+}
+
+
+
+.feed__options .option span {
+    margin-left: 5px;
+}
+
+.feed__options .option:hover {
+    background-color: #ccc;
+
+}

@@ -1,0 +1,61 @@
+.posts {
+    background-color: #fff;
+    padding: 10px;
+    margin-top: 10px;
+    border-radius: 10px;
+}
+
+.posts .posts__header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.posts .posts__header .posts__headerLeft {
+    display: flex;
+    align-items: center;
+}
+
+.posts .posts__header .posts__headerLeft .post_profile_deatils h3 {
+    font-size: 14px;
+    margin: 0px;
+    margin-left: 10px;
+}
+
+.posts .posts__header .posts__headerLeft .post_profile_deatils p {
+    font-size: 12px;
+    margin: 0px;
+    margin-left: 10px;
+}
+
+.posts__body p {
+    font-size: 14px;
+    padding: 20px 0px;
+}
+
+.posts__footer {
+    display: flex;
+    justify-content: space-between;
+    border-top: 1px solid #ccc;
+    padding-top: 10px;
+    margin-top: 10px;
+}
+
+.posts__footer .posts__footer__options {
+    display: flex;
+    align-items: center;
+    cursor: pointer;
+}
+
+.posts__footer .posts__footer__options svg {
+    margin-right: 10px;
+    color: #454343;
+}
+
+.posts__footer .posts__footer__options span {
+    color: #454343;
+    font-size: 14px;
+}
+.posts__headerRight{
+    cursor: pointer;
+}
